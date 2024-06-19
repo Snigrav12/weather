@@ -4,7 +4,7 @@ document.getElementById('submitButton').addEventListener('click', function() {
 });
 
 async function fetchWeatherData(location) {
-    const apiKey = ce4a56a36773f064140813e8fa1ba5ca; // Replace with your OpenWeatherMap API key
+    const apiKey = 'ce4a56a36773f064140813e8fa1ba5ca'; // Replace with your OpenWeatherMap API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
     
     try {
